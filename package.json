@@ -1,0 +1,14 @@
+{
+  "name": "doc1",
+  "version": "1.0.0",
+  "description": "Covid 19 stats",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server /Users/cec/WebstormProjects/doc1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
