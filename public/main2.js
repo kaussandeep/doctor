@@ -1,7 +1,7 @@
 const $input = $('#search');
 const $submit = $('#button');
 
-const getSuggestions = (callback) => {
+const getCoronaResults = (callback) => {
     var countryIsoCode = $('#search').val();
 const urlToFetch = 'https://api.covid19api.com/country/'+countryIsoCode;
 //const wordQuery = $input.value;
@@ -45,7 +45,7 @@ const displaySuggestions = (event) => {
   while(responseField.firstChild){
     responseField.removeChild(responseField.firstChild)
   };
-  getSuggestions();
+  getCoronaResults();
 };
 
 $submit.click(displaySuggestions);
