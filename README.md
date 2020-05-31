@@ -1,6 +1,7 @@
 # doctor
 
 This project uses http-server to setup a front end
+API Used : https://api.covid19api.com/country/ISOCODE
  To Setup
  
  1.) After cloning run  `npm install`  or `npm install -g http-server`
