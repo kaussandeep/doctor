@@ -123,3 +123,38 @@ footer {
     text-align: center;
   }
 }
+
+@media (max-width: 1600px) {
+  main {
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/intermediate-javascript-requests/wanderlust/background_photo_moble.jpg');
+  }
+
+  h1 {
+    padding-top: 80px;
+    font-size: 32px;
+  }
+
+  form {
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+  #responseField {
+    min-height: 120px;
+    background-color: #1f233e;
+    margin: auto;
+    margin-top: 225px;
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+    overflow-wrap: break-word;
+    padding: 20px;
+  }
+
+  .sectiontitle, .sectiontitle h2, #destination {
+    margin: auto;
+    text-align: center;
+  }
+}

@@ -33,9 +33,12 @@ const getCoronaResults = (callback) => {
           }
         }
 
-        document.getElementById('responseField').innerHTML = 'Country :' + searchCountry + ' Max Confirmed Count for single day:' + maxConfirmedCount + 'Date:' + maxConfirmedDate +
-          'Max Death Count in a single Day : ' + maxDeathCount + '\n Day : ' + maxDeathDate;
-        //alert('Country: ' + searchCountry +' \nMax Confirmed Count for single day : ' +maxConfirmedCount + '\n Date : ' + maxConfirmedDate);
+        document.getElementById('responseField').innerHTML =
+          ' <div> <label>Country:</label> <label>' + searchCountry + '</label></div> <br/> ' +
+          ' <div> <label>Max Confirmed Count for single day:</label><label>' + maxConfirmedCount + '</label></div><br/> ' +
+          ' <div> <label>Date:</label><label>' + maxConfirmedDate + '</label> </div><br/> ' +
+          ' <div> <label>Max Death Count in a single Day :</label> <label>' + maxDeathCount + '</label> </div><br/>' +
+          ' <div> <label>Date :</label><label>' + maxDeathDate + '</label> </div> </div><br/> ';
 
       }
 
